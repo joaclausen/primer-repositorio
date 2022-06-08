@@ -20,3 +20,17 @@
 .boton2:hover{
     transform: scale(2);
 }
+
+.imagen{
+    max-width: 550px;
+    margin: 0 auto;
+    zoom: 50%;
+    animation-name: imagenEnMovimiento;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imagenEnMovimiento{
+    0% {transform: rotate(45deg);}
+    100% {transform: rotate(360deg);}
+}
