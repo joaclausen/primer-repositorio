@@ -11,3 +11,12 @@
     background-color: grey;
     transform: skew(-45deg);
 }
+
+.texto_centrado2{
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+.boton2:hover{
+    
+}
