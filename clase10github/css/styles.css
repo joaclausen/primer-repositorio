@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.texto_centrado{
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
